@@ -1,8 +1,8 @@
 品質記録情報
-2024年6月27日 9:13:19
+2024年6月27日 10:19:08
 
 ------ ビルド開始(RL78_Sample2, DefaultBuild) ------
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\panel.c -cpu=S3 -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\74hc.c -cpu=S3 -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
 W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り45日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -subcommand=DefaultBuild\RL78_Sample2.clnk
 W0561018:The evaluation period of CC-RL V1 is valid for the remaining 45 days. After that, functional limit will be applied. Please consider purchasing the product.
@@ -53,8 +53,8 @@ DefaultBuild\RL78_Sample2.clnk :
 
 
 --- SHA1 hash value of output files ---
-C:\Users\t_fujii\Desktop\組み込み\rl78_sample2\03\DefaultBuild\RL78_Sample2.abs: 459cbd4d71709c3714de11e6873cb3a89f59bdee
-C:\Users\t_fujii\Desktop\組み込み\rl78_sample2\03\DefaultBuild\RL78_Sample2.hex: 36f7ad937de2aedd98a19ce99d305f26ab26bebd
+C:\Users\t_fujii\Desktop\rl78 05\DefaultBuild\RL78_Sample2.abs: c786bd4d4906c5604da3e6897d5ee4095ef28639
+C:\Users\t_fujii\Desktop\rl78 05\DefaultBuild\RL78_Sample2.hex: b518089bd56baaa14e851a3ce743659d7e0721db
 
 
 --- システム情報 ---
@@ -80,13 +80,13 @@ C:\Users\t_fujii\Desktop\組み込み\rl78_sample2\03\DefaultBuild\RL78_Sample2.
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  304 MB
+  320 MB
  *GDIオブジェクト数
-  2290
+  2322
  *USERオブジェクト数
-  1216
+  1279
  *開いているファイル
-  7 editors, 7 files, 80 KB
+  7 editors, 7 files, 84 KB
 
 --- ビルド・ツール・プラグイン情報 ---
 RH850ビルド・ツールCC-RH用プラグイン
@@ -222,7 +222,7 @@ IronPythonコンソール・プラグイン
   DeviceInformation.dll
 
 --- メイン・プロジェクト情報 ---
-C:\Users\t_fujii\Desktop\組み込み\rl78_sample2\03\RL78_Sample2.mtpj
+C:\Users\t_fujii\Desktop\rl78 05\RL78_Sample2.mtpj
 マイクロコントローラ情報
  *R5F1058A
   *ファイル名: バージョン

@@ -807,7 +807,7 @@ UCHAR  IC_74HC4511_Evaluate( UCHAR State, UCHAR A_in, UCHAR B_in, UCHAR C_in, UC
 		  count++;
 		}
 	}
-	if (count > 0) {
+	if ((count % 2 )== 1) {
 		return (ucRet2[ucValue]);
 	}
 	return ucRet[ucValue];
